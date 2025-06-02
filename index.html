@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaloIdeas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1><i class="fa-solid fa-money-bills"></i> Interest calculator <i class="fa-solid fa-calculator"></i></h1>
+
+    <form action="" class="form">
+        <label for="principal">Principal Amount</label>
+        <input type="number" name="" id="principal" min="0">
+
+        <label for="rate">  Interest rate</label>
+        <input type="number" name="" id="rate" min="0">
+
+        <label for="years">Years</label>
+        <input type="number" name="" id="years" min="0">
+
+        <button type="button" onclick="calculate()">submit</button>
+
+        <p id="total">Total: <span id="total-amount">R$ 0.00</span></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
